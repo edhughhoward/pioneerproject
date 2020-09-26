@@ -42,11 +42,17 @@ public class DashboardPageElements extends BaseClass {
 	@FindBy(linkText = "Contact Details")
 	public WebElement contactDetails;
 	
-	@FindBy (xpath = "//table[@id='resultTable']/tbody/tr/td[2]")
+	@FindBy (xpath = "//*[@id=\"resultTable\"]/tbody/tr[1]/td[2]/a")
 	public WebElement firstEmployee;
 	
 	@FindBy (id = "menu_pim_viewEmployeeList")
 	public WebElement employeeList;
+
+	@FindBy (id = "btnSave")
+	public WebElement editButton;
+	
+	@FindBy (id = "contact_country")
+	public WebElement countryDD;
 	
 
 

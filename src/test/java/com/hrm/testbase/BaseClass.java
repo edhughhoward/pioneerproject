@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import com.hrm.testbase.PageInitializer;
 import com.hrm.utils.ConfigsReader;
 import com.hrm.utils.Constants;
 

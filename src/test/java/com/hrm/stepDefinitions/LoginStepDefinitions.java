@@ -17,10 +17,7 @@ public class LoginStepDefinitions extends CommonMethods{
 		click(login.btnLogin);
 	}
 
-	@Then("verify the dashboard logo is displayed")
-	public void verify_the_dashboard_logo_is_displayed() {
-	    Assert.assertTrue(dash.welcome.isDisplayed());
-	}
+	
 
 	
 	@When("login with invalid credentials")

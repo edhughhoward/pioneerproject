@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = "com/hrm/stepDefinitions", 
 		dryRun = false, 
 		monochrome = true, 
-		tags = "@ContactDetails", 
+		tags = "@EdsTests", 
 		strict = false, // if there are any undefined methods, the test will fail automatically
 		plugin = { "pretty",
 				"html:target/cucumber-default-reports", "rerun:target/FailedTests.txt", "json:target/cucumber.json" })

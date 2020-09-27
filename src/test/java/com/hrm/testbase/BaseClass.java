@@ -36,7 +36,7 @@ public class BaseClass {
 		default:
 			throw new RuntimeException("Browser is not supported");
 		}
-
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
 		driver.get(ConfigsReader.getPropValue("ApplicationUrl"));
 		PageInitializer.initializePageObjects();
